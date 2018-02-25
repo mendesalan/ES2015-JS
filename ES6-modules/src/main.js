@@ -1,10 +1,6 @@
-class Task {
-    constructor(name, status) {
-        this.name = name
-        this.status = status
-    }
-}
+import TaskCollection from './TaskCollection.js'
 
-let task = new Task('Clean the room', 'open')
+let task = new TaskCollection('Clean the room', 'open')
 
 console.log(task)
+console.log('webpack worked')
