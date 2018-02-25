@@ -72,7 +72,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__TaskCollection_js__ = __webpack_require__(1);
 
 
-var task = new __WEBPACK_IMPORTED_MODULE_0__TaskCollection_js__["a" /* default */]('Clean the room', 'open')
+let task = new __WEBPACK_IMPORTED_MODULE_0__TaskCollection_js__["a" /* default */]('Clean the room', 'open')
 
 console.log(task)
 console.log('webpack worked')
@@ -83,12 +83,14 @@ console.log('webpack worked')
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var Task = function Task(name, status) {
-    this.name = name
-    this.status = status
-};
+class Task {
+    constructor(name, status) {
+        this.name = name
+        this.status = status
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Task;
 
-/* harmony default export */ __webpack_exports__["a"] = (Task);
 
 
 /***/ })
