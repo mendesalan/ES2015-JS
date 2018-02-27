@@ -4,3 +4,10 @@ es6-modules/dist
 
 es6-learning/node_modules
 es6-learning/output
+
+string-and-arrays/node_modules
+string-and-arrays/output
+
+
+generators/node_modules
+generators/output

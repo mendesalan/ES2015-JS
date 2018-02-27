@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "buble-loader": "^0.4.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
